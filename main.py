@@ -22,12 +22,12 @@ model = load_embedding_model()
 
 # Predefined PDFs
 pdf_files = [
-    "data/constitution.pdf",
-    "data/IMPORTANT JUDGEMENTS_OF_SUPREME_COURT_COMPLETE_BOOK.pdf",
-    "data/ipc_act.pdf",
-    "data/it_act_2000_updated.pdf",
-    "data/motor_vehicle_act.pdf",
-    "data/the_code_of_criminal_procedure_1973.pdf"
+    "constitution.pdf",
+    "IMPORTANT JUDGEMENTS_OF_SUPREME_COURT_COMPLETE_BOOK.pdf",
+    "ipc_act.pdf",
+    "it_act_2000_updated.pdf",
+    "motor_vehicle_act.pdf",
+    "the_code_of_criminal_procedure_1973.pdf"
 ]
 
 # Function to extract text from PDFs (caches result)
